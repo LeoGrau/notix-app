@@ -1,0 +1,33 @@
+html {
+  background-color: var(--surface-ground);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+  box-shadow: none !important;
+}
+
+
+.surface-a {
+  background-color: var(--surface-a);
+}
+.surface-b {
+  background-color: var(--surface-b);
+}
+.surface-c {
+  background-color: var(--surface-c);
+}
+.surface-d {
+  background-color: var(--surface-d);
+}
+.surface-e {
+  background-color: var(--surface-e);
+}
