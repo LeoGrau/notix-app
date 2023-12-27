@@ -5,7 +5,7 @@
     </div>
     <ul class="flex gap-4 p-0 m-0">
       <li class="list-none" v-for="route in routes" :key="route.id">
-        <router-link class="no-underline" :to="route.path"> {{ route.pathName }}</router-link>
+        <router-link class="no-underline text-white hover:text-blue-300 transition-duration-100 text-sm" :to="route.path"> {{ route.pathName }}</router-link>
       </li>
     </ul>
   </div>
