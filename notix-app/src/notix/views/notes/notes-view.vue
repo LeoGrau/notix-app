@@ -63,8 +63,13 @@ function openAddNewNoteDialog() {
       style: {
         width: '600px'
       },
-      header: "Add New Note"
-    }
+      header: "Add New Note",
+      modal: true
+    },
+    onClose(options) {
+        console.log(options);
+        console.log(options?.data)
+    },
   })
 }
 </script>

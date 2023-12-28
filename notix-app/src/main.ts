@@ -25,6 +25,7 @@ import TabPanel from 'primevue/tabpanel'
 import Dialog from 'primevue/dialog';
 import DynamicDialog from 'primevue/dynamicdialog';
 import InputText from 'primevue/inputtext'
+import Textarea from 'primevue/textarea'
 
 
 // Services
@@ -47,5 +48,6 @@ app.component("pv-tabpanel", TabPanel)
 app.component("pv-dialog", Dialog)
 app.component("pv-dynamic-dialog", DynamicDialog)
 app.component("pv-input-text", InputText)
+app.component("pv-text-area", Textarea)
 
 app.mount('#app')
